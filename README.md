@@ -1,3 +1,7 @@
+# CRUD and Authentication App
+
+- Idea project:
+
 # Install
 
 `npm install`
