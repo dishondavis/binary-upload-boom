@@ -1,6 +1,7 @@
-# CRUD and Authentication App
+# Group Running App
+  - CRUD and Authentication
 
-- App idea: 
+---
 
 # Install
 
@@ -16,7 +17,6 @@
   - CLOUD_NAME = `your cloudinary cloud name`
   - API_KEY = `your cloudinary api key`
   - API_SECRET = `your cloudinary api secret`
-  - TODO = `These things will be added`
 
 ---
 
@@ -24,3 +24,22 @@
 
 `npm start`
 
+---
+
+# MVP
+
+  - C - (CREATE) ----> /POST: A logged in user can create post with <br> 
+                              time, day, and start location of the run.
+  - R - (READ) -------> /GET: Retrieving the post data to display to all users
+  - U - (UPDATE) -----> /PUT: Can update the time, day, and location.
+  - D - (DELETE) --> /DELETE: Delete the post for a run created, <br>
+                              based on the user that posted the run. 
+
+---
+
+# Second Version
+
+  - U - (UPDATE) -----> /PUT: Adding runners (users) to a specific POST. <br>
+                              The new posts will have to include a runners field <br>
+                              in the models schema. Possibly an array of strings or ids?
+  - D - (DELETE) --> /DELETE: Delete a logged in user from a POST run they signed up for.
