@@ -13,10 +13,6 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  title: {
-    type: String,
-    required: true,
-  },
   image: {
     type: String,
     require: true,
@@ -24,10 +20,6 @@ const PostSchema = new mongoose.Schema({
   cloudinaryId: {
     type: String,
     require: true,
-  },
-  caption: {
-    type: String,
-    required: true,
   },
   likes: {
     type: Number,

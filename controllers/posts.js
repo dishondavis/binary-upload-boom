@@ -35,10 +35,8 @@ module.exports = {
         time: req.body.time,
         day: req.body.day,
         location: req.body.location,
-        title: req.body.title,
         image: result.secure_url,
         cloudinaryId: result.public_id,
-        caption: req.body.caption,
         likes: 0,
         user: req.user.id,
       });
